@@ -1,0 +1,13 @@
+body {
+    color: violet;
+    background-color: slategray;
+  }
+h1 {
+    text-align: center;
+}
+h2 {
+    position: relative; top: 1375px; left: 1425px;
+    font-style: italic;
+    color: limegreen;
+    border: 1px;
+}
