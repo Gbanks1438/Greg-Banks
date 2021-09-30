@@ -58,11 +58,10 @@ p {
     text-align: left;
     color: green;
     font-size: 34px;
-    float: inline-start;
     font-family: serif;
-    position: absolute; top: 0; left: 20%;
-    background: rgba(57, 215, 255, 0.75);
-    max-width: 60%;
+    position: absolute; top: 1%; left: 13%;
+    background: rgba(57, 215, 255, 0.85);
+    max-width: 75%;
 }
 .spaceContainer {
     width: 100%;
@@ -70,7 +69,10 @@ p {
 }
 .spaceContainer img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .oceanContainer {
     width: 100%;
@@ -78,5 +80,5 @@ p {
 }
 .oceanContainer img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
