@@ -1,12 +1,14 @@
 body {
     color: darkorchid;
     background-color: #414a4c;
-  }
+    font-family: Arial
+}
 h1 {
     text-align: center;
 }
 h2 {
-    position: relative; top: 1375px; left: 1425px;
+    position: absolute; 
+    top: 1225px; left: 1090px;
     font-style: italic;
     color: limegreen;
     border: 1px;
@@ -40,4 +42,41 @@ nav li a {
 #navBar {
     text-align: center;
     padding: 10px 0px 0px 0px;
+}
+p {
+    text-align: center;
+    font-family: Lucida;
+    font-size: 34px;
+    color: goldenrod;
+    position: absolute; top: 650px; left: 750px;
+}
+.rotate:hover {
+    transform: rotate(180deg);
+    color: #0098c8;
+}
+#about {
+    text-align: left;
+    color: green;
+    font-size: 34px;
+    float: inline-start;
+    font-family: serif;
+    position: absolute; top: 0; left: 20%;
+    background: rgba(57, 215, 255, 0.75);
+    max-width: 60%;
+}
+.spaceContainer {
+    width: 100%;
+  text-align: center;
+}
+.spaceContainer img {
+    width: 100%;
+    height: auto;
+}
+.oceanContainer {
+    width: 100%;
+  text-align: center;
+}
+.oceanContainer img {
+    width: 100%;
+    height: auto;
 }
