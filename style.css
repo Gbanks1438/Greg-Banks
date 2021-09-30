@@ -1,6 +1,6 @@
 body {
-    color: violet;
-    background-color: slategray;
+    color: darkorchid;
+    background-color: #414a4c;
   }
 h1 {
     text-align: center;
@@ -10,4 +10,34 @@ h2 {
     font-style: italic;
     color: limegreen;
     border: 1px;
+}
+nav li a:link {
+    color: red;
+}
+nav li a:visited {
+    color: yellow;
+}
+nav li a:hover {
+    color: orange;
+}
+nav li a:active {
+    color: yellowgreen;
+}
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+nav li {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+}
+nav li a {
+    font-family: Helvetica;
+    font-size: 20px;
+    text-decoration: none;
+}
+#navBar {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
 }
